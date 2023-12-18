@@ -1,7 +1,7 @@
 ﻿# Finansal Sektörde Doğal Dil İşleme (NLP) Kullanımı
 
-# Ferhat Günaydın
-
+Ferhat Günaydın
+1030510403
 Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
 ## Giriş
 
@@ -18,27 +18,23 @@ Hisse senedi piyasasında başarılı işlem yapmak, belirli hisseler hakkındak
 
 Sosyal medya analizi, sosyal medya gönderileri içinde bu tür bilgileri izlemeyi ve ticaret için potansiyel fırsatları seçmeyi içerir. Örneğin, bir CEO'nun istifası haberi genellikle olumsuz bir duyguyu ifade eder ve hisse fiyatını olumsuz etkileme potansiyeline sahiptir. Ancak CEO iyi performans göstermiyorsa, hisse piyasası istifa haberini olumlu bir şekilde karşılar ve bu defa hisse fiyatını potansiyel olarak artırabilecektir.
 
-DataMinr[<![if !supportFootnotes]>[1]<![endif]>](#_ftn1) ve Bloomberg gibi bazı şirketler, bu tür bilgileri yatırımcılara yardımcı olmak için sunmaktadır. Örneğin, DataMinr, kullanıcılarına pazarı potansiyel olarak etkileyebilecek Dell ile ilgili hisse senedi özel uyarılar ve haberler sunmuştur.
+DataMinr[[1]](#_ftn1) ve Bloomberg gibi bazı şirketler, bu tür bilgileri yatırımcılara yardımcı olmak için sunmaktadır. Örneğin, DataMinr, kullanıcılarına pazarı potansiyel olarak etkileyebilecek Dell ile ilgili hisse senedi özel uyarılar ve haberler sunmuştur.
 
 Finansal duygu analizi, rutin duygu analizinden farklıdır. Hem alan hem de amacı bakımından farklıdır. Normal duygu analizinde amaç, bilginin temelde olumlu olup olmadığını bulmaktır (Kochmar, 2022, s. 238). Ancak NLP tabanlı finansal duygu analizinde amaç, piyasanın habere nasıl tepki vereceğini ve hisse senedi fiyatının düşüp düşmeyeceğini görmektir.
 
 BERT (Bidirectional Encoder Representations from Transformers), Google araştırmacıları tarafından 2018 yılında tanıtılan bir sinir ağı mimarisidir. Başka bir ifadeyle, Google'ın NLP için kullandığı sinir ağı temelli bir ön eğitim tekniğidir. BERT, dilin inceliklerini insanlar gibi anlamaya yardımcı olmayı amaçlamaktadır. Bu algoritma, potansiyel olarak Google'ın kullanıcılara daha ilgili ve değerli sonuçlar sunma yeteneğini artırmaktadır. Önceden, Google genellikle kullanıcıların sorgularındaki anahtar kelimelere odaklanmaktaydı. BERT ile Google, sorgudaki her kelimeyi ayrı ayrı değil, aynı zamanda tüm dilsel bağlama ve kullanıcının sorgusundaki kelimeler arasındaki içsel dilsel tutarlılığa odaklanarak anlamaya çalışmaktadır.
 
-BioBERT[<![if !supportFootnotes]>[2]<![endif]>](#_ftn2), biyomedikal metin madenciliği için önceden eğitilmiş bir biyomedikal dil temsil modeli olarak oldukça kullanışlı olmuştur ve şimdi araştırmacılar BERT'i finansal alan için uyarlamak üzerinde çalışmaktadır. FinBERT[<![if !supportFootnotes]>[3]<![endif]>](#_ftn3), finans hizmetleri sektörü için geliştirilen modellerden biridir. FinBERT, Reuters'ten finansal haberler içeren bir veri kümesi üzerinde çalışmaktadır. Duygu atamalarını gerçekleştirmek için ifade bankası oluşturulmuştur. Bu ifade bankası, işletme veya finans geçmişi olan farklı insanlar tarafından etiketlenen yaklaşık 4.000 cümleden oluşmaktadır. FinBERT, diğer mevcut araçlara göre önemli ölçüde geliştirilmiş bir doğruluk ve F1 skoru ile oldukça başarılı olmuştur. FinBERT kütüphanesi GitHub'ta[<![if !supportFootnotes]>[4]<![endif]>](#_ftn4) ilgili verilerle açıktır. Ekonomik duygu sınıflandırması için güçlü bir dil modeli olan bu model, farklı amaçlar için kullanılabilmektedir.
-
-<![if !supportFootnotes]>  
+BioBERT[[2]](#_ftn2), biyomedikal metin madenciliği için önceden eğitilmiş bir biyomedikal dil temsil modeli olarak oldukça kullanışlı olmuştur ve şimdi araştırmacılar BERT'i finansal alan için uyarlamak üzerinde çalışmaktadır. FinBERT[[3]](#_ftn3), finans hizmetleri sektörü için geliştirilen modellerden biridir. FinBERT, Reuters'ten finansal haberler içeren bir veri kümesi üzerinde çalışmaktadır. Duygu atamalarını gerçekleştirmek için ifade bankası oluşturulmuştur. Bu ifade bankası, işletme veya finans geçmişi olan farklı insanlar tarafından etiketlenen yaklaşık 4.000 cümleden oluşmaktadır. FinBERT, diğer mevcut araçlara göre önemli ölçüde geliştirilmiş bir doğruluk ve F1 skoru ile oldukça başarılı olmuştur. FinBERT kütüphanesi GitHub'ta[[4]](#_ftn4) ilgili verilerle açıktır. Ekonomik duygu sınıflandırması için güçlü bir dil modeli olan bu model, farklı amaçlar için kullanılabilmektedir.
 
 ----------
 
-<![endif]>
+[https://www.dataminr.com/](https://www.dataminr.com/)
 
-[<![if !supportFootnotes]>[1]<![endif]>](#_ftnref1) [https://www.dataminr.com/](https://www.dataminr.com/)
+[https://academic.oup.com/bioinformatics/article/36/4/1234/5566506?login=false](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506?login=false)
 
-[<![if !supportFootnotes]>[2]<![endif]>](#_ftnref2) [https://academic.oup.com/bioinformatics/article/36/4/1234/5566506?login=false](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506?login=false)
+[https://arxiv.org/abs/1908.10063](https://arxiv.org/abs/1908.10063)
 
-[<![if !supportFootnotes]>[3]<![endif]>](#_ftnref3) [https://arxiv.org/abs/1908.10063](https://arxiv.org/abs/1908.10063)
-
-[<![if !supportFootnotes]>[4]<![endif]>](#_ftnref4) [https://github.com/ProsusAI/finBERT](https://github.com/ProsusAI/finBERT)
+[https://github.com/ProsusAI/finBERT](https://github.com/ProsusAI/finBERT)
 ## 2- Risk Değerlendirmesi
 
 Bankalar, kredi riski değerlendirmesi temelinde başarılı bir kredi ödeme olasılığını incelemektedir. Kredi ödeme olasılığı, genellikle; ödeme kapasitesi, önceki harcama alışkanlıkları ve önceki kredi ödeme geçmişi verilerine dayalı olarak hesaplanmaktadır. Ancak bazı durumlarda bu bilgilere erişimi bulunmamaktadır ya da yetersizdir. Özellikle daha düşük gelirli kesimlerde bu durum geçerlidir. Tahminlere göre, dünya nüfusunun neredeyse yarısı, yoksulluk nedeniyle finansal hizmetleri kullanmamaktadır.
@@ -57,7 +53,7 @@ Finansal yatırımcıların temel amacı, uzun vadede sermayesini maksimize etme
 
 NLP, yarı-log-optimal portföy optimizasyonu için kullanılabilmektedir. Yarı-log-optimal portföy seçimi, logaritmik optimal portföy seçiminin hesaplama alternatifidir. Bu sayede çevresel faktörler belirsiz olduğunda maksimum olası büyüme oranı elde edilir. Veri zarflama analizi, arzu edilen ve istenmeyen hisseleri filtreleyerek portföy seçimi için kullanılabilecektir.
 
-# 5- Hisse Senedi Davranışını Tahmin Etmek
+## 5- Hisse Senedi Davranışını Tahmin Etmek
 
 Finansal analiz için hisse senedi davranışını tahmin etmek, dalgalanan ve rastgele verilerin yanı sıra uzun vadeli ve mevsimsel varyasyonların neden olabileceği önemli hatalara neden olabilen zorlu bir görevdir.
 
@@ -79,48 +75,48 @@ Finans sektörü çalışanları, günlük işlemlerdeki anormallikleri doğruda
 
 Finans sektöründe NLP'nin tam anlamıyla kullanılmasının faydalarını özetleyecek olursak, aşağıdaki 5 temel faydadan bahsetmek mümkündür:
 
-**8.1. Verimlilik**
+### 8.1. Verimlilik
 
 NLP, büyük miktardaki yapılandırılmamış içeriği anlamlı bilgilere anında dönüştürme yeteneğine sahiptir.
 
-**8.2. Tutarlılık**
+### 8.2. Tutarlılık
 
 Tek bir NLP modeli, metinle ilgili farklı yönleri farklı şekillerde çözen insanların oluşturduğu bir ekipten çok daha tutarlı sonuçlar sağlayabilmektedir.
 
-**8.3. Doğruluk**
+### 8.3. Doğruluk
 
 İnsanlar, hacimli yapılandırılmamış belgelerde içeriği gözden kaçırabilmekte veya yanlış okuyabilmektedirler. NLP destekli sistemlerde bu tür hatalar daha fazla ortadan kaldırılmaktadır.
 
-**8.4. Ölçeklendirme**
+### 8.4. Ölçeklendirme
 
 NLP teknolojisi kullanarak çeşitli belgeler, iç süreçler, e-postalar, sosyal medya verileri ve daha fazlası üzerinde ölçekli metin analizi mümkündür. Manuel analiz günler alırken, NLP ile büyük miktardaki verinin işlenmesi saniyeler veya dakikalar içinde gerçekleştirilebilmektedir.
 
-**8.5. Süreç Otomasyonu**
+### 8.5. Süreç Otomasyonu
 
 NLP, finansal verilerden elde edilen pratik bilgileri tarama ve çıkarma sürecini tamamen otomatikleştirme bakımından fayda sağlamaktadır.
 ## 9. Finans Sektöründe NLP Kullanımının Kısıtları
 
 Finans sektöründe NLP; süreçleri otomatikleştirmek, hataları azaltmak ve 7/24 müşteri desteği sunmak gibi faydalara sahiptir. Bununla birlikte, finans sektöründe NLP kullanırken kullanımında aşağıda belirtilen bazı zorluklar da gözlemlenmektedir:
 
-**9.1. Veri Gizliliği**
+### 9.1. Veri Gizliliği
 
 Finansal kuruluşların karşılaştığı en büyük zorluklardan biri veri gizliliğidir. Özelikle bankalar, korunması gereken hassas müşteri verilerine sahiptir. Yapay zeka ve NLP kullanırken, finansal kuruluşlar, makine öğrenme algoritmalarını eğitmek için verileri üçüncü taraf sağlayıcılarla paylaşmak zorunda kalırlar. Burada verilere kimlerin erişebileceği ve verilerin nasıl kullanılacağına ilişkin güvenlik endişeleri ortaya çıkmaktadır.
 
 Ayrıca, bankacılık ve finans sektöründe NLP kullanımıyla ilgili düzenleyici mevzuata ilişkin endişeler de bulunmaktadır. Örneğin, bir banka kredi kararları almak için NLP kullanıyorsa, taraflı karar vermeye ilişkin çekinceler olabilmektedir. Bu nedenle, NLP sistemlerinin karar alma sürecinde nasıl davrandığı konusunda şeffaflık sağlanması gerekmektedir.
 
-**9.2. Veri Kalitesi**
+### 9.2. Veri Kalitesi
 
 NLP sistemleri etkili bir şekilde çalışmak için büyük miktarda veriye ihtiyaç duymaktadır. Ancak finans kuruluşları belirli ürünler veya müşterilerle ilgili yeterli veriye sahip olmayabilirler. Ayrıca, makine öğrenme modelleri, giriş olarak temiz ve iyi yapılandırılmış veriye ihtiyaç duyar ve finans kuruluşlarının elindeki veri yüksek kalitede olmayabilir. Bu noktada, pahalı ve zaman alıcı veri temizleme süreçlerine ihtiyaç duyulacaktır.
 
-**9.3. Redde İlişkin Gerekçeler**
+### 9.3. Redde İlişkin Gerekçeler
 
 Finansal hizmetler için NLP tabanlı sistemler bir kişinin hayatını önemli ölçüde etkileme kapasitesine sahiptir. Örneğin, sistem bir müşterinin kredi talebini onaylamazsa, müşterinin geleceğine büyük bir etkisi olabilmektedir. Sistemin kararlarını yalnızca tasarımına dayalı olarak alması durumunda, finans kuruluşlarının talebin reddine ilişkin kararıları müşterilere açıklaması zor olacaktır. Doğru bir gerekçelendirme yapılmadan müşterileri reddetmek, finans kuruluşları açısından müşteri kaybının yanısıra yasal otoriteler karşısında sorumluluklara da yol açabilecektir.
 
-**9.4. Yüksek Yatırım Maliyeti**
+### 9.4. Yüksek Yatırım Maliyeti
 
 Küçük ölçekli kuruluşlar açısından ileri düzey NLP tabanlı sistemlerin maliyeti karşılanamayacak düzeyde olabilmektedir. Yazılım ve ek donanım maliyetlerinin yanı sıra düzenli güncellemelerin planlanması ve uygulanması gerekmektedir. Güncelleme ile ilgili bir sorun ortaya çıkması halinde sistemlerin uzun süre kullanım dışı kalması da beklenebilir. Finans kuruluşları, yasal düzenlemeler neticesine belirli bir hacimde ve yeterli sermayeyle kurulmak zorundadır. Bu nedenle, sistemin pahalılığı finans kuruluşları açısından bir sorun yaratmayacaktır. Ancak sistemin uzun süre kulanım dışı kalması, finans kuruluşlarının çok büyük maliyetlerle karşılaşmasına neden olabilecektir.
 
-# Sonuç
+## Sonuç
 
 Finans sektöründe, NLP; işlemleri hızlandırmak, riskleri değerlendirmek, finansal duyguları anlamak, portföyler oluşturmak ve muhasebe ile denetimi otomatikleştirmek gibi çok sayıda amaç için kullanılmaktadır. Doğal dil işleme teknikleri son zamanlarda daha kesin ve güvenilir hale gelmiştir, bu da finansal kararları daha verimli ve maliyet etkin hale getirmektedir. Son dönemde NLP, finans kuruluşlarında yaygın bir şekilde kullanılmaktadır.
 
