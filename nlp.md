@@ -29,8 +29,11 @@ BioBERT[[2]](#_ftn2), biyomedikal metin madenciliği için önceden eğitilmiş 
 ----------
 
 [[1] https://www.dataminr.com/](https://www.dataminr.com/)
+
 [[2] https://academic.oup.com/bioinformatics/article/36/4/1234/5566506?login=false](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506?login=false)
+
 [[3] https://arxiv.org/abs/1908.10063](https://arxiv.org/abs/1908.10063)
+
 [[4] https://github.com/ProsusAI/finBERT](https://github.com/ProsusAI/finBERT)
 ## 2- Risk Değerlendirmesi
 
